@@ -13,7 +13,7 @@ export const Cta = ({ className }: CtaProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <h2 className={styles.title}>Obtén una cotización personalizado</h2>
-            <button className={styles.button}>Cotizar</button>
+            <a href='https://tally.so/r/mY0BBq' target='_blank' className={styles.button}>Cotizar</a>
         </div>
     );
 };
