@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #001122;
+}
+.button {
+  width: auto;
+  padding: 20px 35px;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #001122;
+  color: #fff;
+  border-radius: 8px;
+}

@@ -1,10 +1,7 @@
 import classNames from 'classnames';
-import styles from './landing-page.module.scss';
-import { Hero } from '../hero/hero';
-import { Services } from '../services/services';
-import { Cta } from '../cta/cta';
+import styles from './cta.module.scss';
 
-export interface LandingPageProps {
+export interface CtaProps {
     className?: string;
 }
 
@@ -12,13 +9,11 @@ export interface LandingPageProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-
-export const LandingPage = ({ className }: LandingPageProps) => {
+export const Cta = ({ className }: CtaProps) => {
     return (
         <div className={classNames(styles.root, className, 'section')}>
-            <Hero />
-            <Services />
-            <Cta />
+            <h2 className={styles.title}>Obtén una cotización personalizado</h2>
+            <button className={styles.button}>Cotizar</button>
         </div>
     );
 };

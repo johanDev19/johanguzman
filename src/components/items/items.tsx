@@ -19,7 +19,7 @@ export const Items = ({ className, data }: ItemsProps) => {
     return (
         <div className={classNames(className, styles.root)}>
             {data?.map((item) => (
-                <div className={styles.itemContainer}>
+                <div className={styles.itemContainer} key={item.title}>
                     <h6 key={item.title} className={styles.h6}>
                         {item.title}
                     </h6>
