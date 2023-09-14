@@ -15,9 +15,9 @@ export interface LandingPageProps {
 
 export const LandingPage = ({ className }: LandingPageProps) => {
     return (
-        <div className={classNames(styles.root, className, 'section')}>
+        <div className={classNames(styles.root, className)}>
             <Hero />
-            <Services />
+            <Services className={styles.root} />
             <Cta />
         </div>
     );

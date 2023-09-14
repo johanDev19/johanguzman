@@ -11,7 +11,7 @@ export interface CtaProps {
  */
 export const Cta = ({ className }: CtaProps) => {
     return (
-        <div className={classNames(styles.root, className, 'section')}>
+        <div className={classNames(styles.root, className)}>
             <h2 className={styles.title}>Obtén una cotización personalizado</h2>
             <button className={styles.button}>Cotizar</button>
         </div>

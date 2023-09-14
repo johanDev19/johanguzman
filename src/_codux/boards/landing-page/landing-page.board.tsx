@@ -5,7 +5,7 @@ import Classnames from 'classnames';
 
 export default createBoard({
     name: 'LandingPage',
-    Board: () => <LandingPage className="section" />,
+    Board: () => <LandingPage />,
     isSnippet: true,
     environmentProps: {
         windowWidth: 1032,

@@ -13,7 +13,7 @@ export interface HeroProps {
  */
 export const Hero = ({ className }: HeroProps) => {
     return (
-        <div className={classNames(styles.root, className)}>
+        <div className={classNames(styles.root, className, 'section')}>
             <div className={styles.imageWrapper}>
                 <img src={ProfileImage} alt="" />
             </div>

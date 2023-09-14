@@ -36,7 +36,7 @@ const servicesList = [
 ];
 export const Services = ({ className }: ServicesProps) => {
     return (
-        <div className={classNames(styles.root, className)}>
+        <div className={classNames(styles.root, className, 'section')}>
             <h4 className={styles.title}>Servicios</h4>
             <div>
                 <Items data={servicesList} />

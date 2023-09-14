@@ -12,9 +12,15 @@ img {
   max-width: 1000px;
   width: 100%;
   padding: 50px;
+  margin: auto;
 }
 
 * {
   box-sizing: border-box;
   width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }

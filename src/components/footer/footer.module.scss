@@ -1,0 +1,34 @@
+.root {
+  background-color: rgb(17, 17, 17);
+  margin-top: 50px;
+}
+.footerLinkContainer {
+  display: flex;
+  grid-template-columns: 2fr;
+  color: #fff;
+  grid-template-rows: 1fr;
+  gap: 2px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration-line: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.title {
+  margin: 0px 0px 10px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px 0px 0px;
+}
