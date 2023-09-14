@@ -1,0 +1,24 @@
+.root {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.imageWrapper {
+  display: flex;
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50px;
+
+  img {
+    object-fit: cover;
+    object-position: center;
+  }
+}
+.title {
+  font-size: 30px;
+  font-weight: 400;
+}
