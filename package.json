@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "vite --host --port 3000"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.10",
