@@ -23,6 +23,6 @@
     "@wixc3/react-board": "^2.3.0",
     "sass": "^1.66.1",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "vite": "^4.4.12"
   }
 }
